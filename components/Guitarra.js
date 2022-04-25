@@ -7,6 +7,7 @@ const Guitarra = ({guitarra}) => {
   return (
     <div className={styles.guitarra}>
         <Image 
+            priority="true"
             layout="responsive" 
             width={180} 
             height={350} 

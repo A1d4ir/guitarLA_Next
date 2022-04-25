@@ -48,7 +48,7 @@ export async function getServerSideProps() {
     resCursos.json(),
     resBlog.json()
   ])
-  
+
   return {
     props: {
       guitarras,
